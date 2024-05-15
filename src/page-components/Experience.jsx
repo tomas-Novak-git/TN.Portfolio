@@ -1,7 +1,8 @@
 // import { FaReact, FaCss3Alt } from "react-icons/fa";
 import Wordle from "./cards/Wordle";
-import GameHub from "./cards/GameHub";
 import WeatherApp from "./cards/WeatherApp";
+import GameHub from "./cards/GameHub";
+import Portfolio from "./cards/Portfolio";
 
 const Experience = () => {
   return (
@@ -13,6 +14,7 @@ const Experience = () => {
           Projekty
         </h3>
         <GameHub />
+        <Portfolio />
         <Wordle />
         <WeatherApp />
       </div>
