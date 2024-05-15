@@ -15,8 +15,8 @@ const Experience = () => {
         </h3>
         <GameHub />
         <Portfolio />
-        <Wordle />
         <WeatherApp />
+        <Wordle />
       </div>
     </div>
   );

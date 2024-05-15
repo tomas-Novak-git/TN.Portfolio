@@ -15,8 +15,8 @@ const WeatherApp = () => {
             <h4 className='mb-4 text-xl'>Weather App</h4>
             <p className='text-slate-400 text-sm md:text-base pb-2'>
               Menší aplikace ze série practice projektů. Zaměření tohoto cvičení
-              bylo primárně o data fetchování a práce s JSONa jejich zobrazení v
-              live componentu. Živá data jsou z API{" "}
+              bylo primárně o data fetchování a práce s JSON a jejich zobrazení
+              v live componentu. Živá data jsou z API{" "}
               <a
                 href='https://openweathermap.org/'
                 className='text-cyan-400'>
