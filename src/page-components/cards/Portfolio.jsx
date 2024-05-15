@@ -5,8 +5,8 @@ import JsIcon from "../../utils/icons/JsIcon";
 import ReactIcon from "../../utils/icons/ReactIcon";
 
 const Portfolio = () => {
-  const webLink = "/";
-  const gitLink = "/";
+  const webLink = "https://tn-portfolio-nu.vercel.app";
+  const gitLink = "https://github.com/tomas-Novak-git/TN.Portfolio";
   return (
     <div className='max-w-screen-lg flex flex-col shadow-xl shadow-black my-8 py-9 px-8 border-t-2 border-r-2 border-b-2 border-b-cyan-900 border-t-cyan-700 border-l-2 border-l-cyan-900 border-r-cyan-900 rounded-lg bg-gradient-to-tr from-black to-cyan-950'>
       <div className='flex flex-col md:flex-row gap-4 md:gap-8 mb-4'>

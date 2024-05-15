@@ -37,8 +37,8 @@ const Wordle = () => {
             </div>
           </div>
           <WebLink
-            webLink={webLink}
-            gitLink={gitLink}
+            weblink={webLink}
+            gitlink={gitLink}
           />
         </div>
       </div>

@@ -8,7 +8,7 @@ const WebLink = ({ weblink, gitlink }) => {
         <p className='text-slate-500 pb-2 text-sm'>Code</p>
         <a
           target='_blank'
-          className='flex flex-col gap-1 items-center'
+          className='flex flex-col gap-1 items-center hover:scale-105 transition-all duration-150'
           href={gitlink}>
           <FaGithub className='text-[28px] sm:text-[2rem]' />
           <p className='text-sm sm:text-base'>Github</p>
@@ -18,7 +18,7 @@ const WebLink = ({ weblink, gitlink }) => {
         <p className='text-slate-500 text-sm'>Live</p>
         <a
           target='_blank'
-          className='flex flex-col gap-1 items-center'
+          className='flex flex-col gap-1 items-center hover:scale-105 transition-all duration-150'
           href={weblink}>
           <FaGlobe className='text-[28px] sm:text-[2rem]' />
           <p className='text-sm sm:text-base'>Web</p>
